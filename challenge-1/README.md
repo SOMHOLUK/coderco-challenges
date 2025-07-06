@@ -22,7 +22,7 @@ Make sure no other user (except root) can read/write to it
 
 ## Step 1
 
-![Image 1](images-user-1/code-challenge-pic-1.png)
+![image1](images/code-challenge-pic-1.png)
 
 ## Step 2
 
