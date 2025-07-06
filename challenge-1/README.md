@@ -67,3 +67,64 @@ Make sure no other user (except root) can read/write to it
 ## Step 12
 
 ![image12](images/code-challenge-pic-12.png)
+
+## 2. Systemd Service
+
+For some help: Creating a Linux service with systemd
+
+Create a coderco-app.service under /etc/systemd/system
+
+It should:
+
+Run python3 /opt/coderco-app/server.py
+Run as appuser
+Restart if it fails
+Enable and start the service
+Show that it’s running using curl localhost:8080
+Use EnvironmentFile=/opt/coderco-app/.env in your systemd unit to inject PORT and LOG_PATH. You can add this line to the [Service] section of the service file.
+
+# The steps I have taken to solve the "Systemd Service" challenge can be seen in the screenshots below:
+
+## Step 1
+
+![image2](images/code-challenge-systemd-1.png)
+
+## Step 2
+
+![image2](images/code-challenge-systemd-2.png)
+
+## Step 3
+
+![image3](images/code-challenge-systemd-3.png)
+
+## Step 4
+
+![image4](images/code-challenge-systemd-4.png)
+
+## Step 5
+
+![image5](images/code-challenge-systemd-5.png)
+
+## Step 6
+
+![image6](images/code-challenge-systemd-6.png)
+
+## Step 7
+
+![image7](images/code-challenge-systemd-7.png)
+
+## Step 8
+
+![image8](images/code-challenge-systemd-8.png)
+
+## Step 9
+
+![image9](images/code-challenge-systemd-9.png)
+
+## Step 10
+
+![image10](images/code-challenge-systemd-10.png)
+
+## Step 11
+
+![image11](images/code-challenge-systemd-11.png)
