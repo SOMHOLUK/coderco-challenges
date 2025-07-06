@@ -26,44 +26,44 @@ Make sure no other user (except root) can read/write to it
 
 ## Step 2
 
-![Screenshot-1](../images/code-challenge-pic-2.png)
+![image2](images/code-challenge-pic-2.png)
 
 ## Step 3
 
-![Screenshot-1](../images/code-challenge-pic-3.png)
+![image3](images/code-challenge-pic-3.png)
 
 ## Step 4
 
-![Screenshot-1](../images/code-challenge-pic-4.png)
+![image4](images/code-challenge-pic-4.png)
 
 ## Step 5
 
-![Screenshot-1](../images/code-challenge-pic-5.png)
+![image5](images/code-challenge-pic-5.png)
 
 ## Step 6
 
-![Screenshot-1](../images/code-challenge-pic-6.png)
+![image6](images/code-challenge-pic-6.png)
 
 ## Step 7
 
-![Screenshot-1](../images/code-challenge-pic-7.png)
+![image7](images/code-challenge-pic-7.png)
 
 ## Step 8
 
-![Screenshot-1](../images/code-challenge-pic-8.png)
+![image8](images/code-challenge-pic-8.png)
 
 ## Step 9
 
-![Screenshot-1](../images/code-challenge-pic-9.png)
+![image9](images/code-challenge-pic-9.png)
 
 ## Step 10
 
-![Screenshot-1](../images/code-challenge-pic-10.png)
+![image10](images/code-challenge-pic-10.png)
 
 ## Step 11
 
-![Screenshot-1](../images/code-challenge-pic-11.png)
+![image11](images/code-challenge-pic-11.png)
 
 ## Step 12
 
-![Screenshot-1](../images/code-challenge-pic-12.png)
+![image12](images/code-challenge-pic-12.png)
