@@ -19,7 +19,9 @@ a. Open the SSH configuration file (sshd_config) using text editor vim.
 ![image1](images/ssh2-pic-1.png)
 
 <br>
+
 b. Comment out the old port (#Port 22) and add the new port: Port 2222
+
 <br>
 
 ![image2](images/ssh2-pic-2.png)
