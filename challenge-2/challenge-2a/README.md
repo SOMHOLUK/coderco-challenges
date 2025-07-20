@@ -8,7 +8,7 @@
 
 <br>
 
-![image1](codechal-pic-1.png)
+![image1](images/codechal-pic-1.png)
 
 <br>
 
