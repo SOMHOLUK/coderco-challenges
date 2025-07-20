@@ -12,6 +12,10 @@
 
 ---
 
+## Context: This challenge was done on an Amazon EC2 instance.
+
+---
+
 ## 1. SSH must work only on port 2222
 
 a. Open the SSH configuration file (`sshd_config`) using text editor vim.
@@ -58,7 +62,7 @@ Use the `AllowUsers` configuration directive like in this example: `AllowUsers s
 
 <br>
 
-d. Test the configuration syntax in the  OpenSSH server’s `sshd_config file` . If there are any issues, errors will be printed.
+d. Test the configuration syntax in the OpenSSH server’s `sshd_config file` . If there are any issues, errors will be printed.
 As you can see in the screenshot below, nothing was printed.
 
 <br>
@@ -74,3 +78,7 @@ e. The SSH service was reloaded successfully using `sudo systemctl reload ssh.se
 ![image7](images/ssh2-pic-7.png)
 
 <br>
+
+# 3. Disable password login — enable key-based auth by using the following command in the OpenSSH server’s `sshd_config file`: `PasswordAuthentication no`.
+
+![image8](images/ssh2-pic-8.png)
