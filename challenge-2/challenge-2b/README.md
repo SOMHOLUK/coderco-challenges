@@ -32,7 +32,7 @@ b. Comment out the old port (#Port 22) and add the new port: Port 2222
 
 Furthermore, if this is done on an Amazon EC2 instance, also make sure that during the creation/launching of the EC2 instance, you only tick the SSH port 22 box, and then you can manually change it to 2222 in the ssh configuration file like it was done here above.
 
-### 2. Only admin and deployer users should be allowed. Implement an IP address allow list.
+## 2. Only admin and deployer users should be allowed. Implement an IP address allow list.
 
 a. The`w`command lets you check the IP address you are using to access the server. Here the `USER` is `ubuntu` and the ip address is `FROM` `85.225.233.92`
 
@@ -79,6 +79,12 @@ e. The SSH service was reloaded successfully using `sudo systemctl reload ssh.se
 
 <br>
 
-# 3. Disable password login — enable key-based auth by using the following command in the OpenSSH server’s `sshd_config file`: `PasswordAuthentication no`.
+## 3. Disable password login — enable key-based auth by using the following command in the OpenSSH server’s `sshd_config file`: `PasswordAuthentication no`.
 
 ![image8](images/ssh2-pic-8.png)
+
+
+
+## 4. Provide your public key for SSH
+
+Openend a new terminal and ran the following command to get the public key on my laptop :`cat ~/.ssh/id_rsa.pub`
